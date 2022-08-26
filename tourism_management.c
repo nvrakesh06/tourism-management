@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<string.h>
 
+//Developed By Ankan Das
+
 enum state{menu,loggedin};
 enum state currentstate=menu;
 
@@ -457,7 +459,7 @@ void LogoutUser()
 
 void ExitProgram()
 {
-    printf("Exiting..." to exit");
+    printf("Exiting...");
     char exitprog;
     fflush(stdin);
     scanf("%c",&exitprog);
