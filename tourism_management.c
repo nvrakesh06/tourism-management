@@ -2,8 +2,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-//Developed By Ankan Das
-
 enum state{menu,loggedin};
 enum state currentstate=menu;
 
